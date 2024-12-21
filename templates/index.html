@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Find Your Zodiac Sign</title>
+</head>
+<body>
+    <div class="zodiac-calculator">
+        <h1>Find Your Zodiac Sign</h1>
+        <form action="/zodiac" method="post">
+            <div class="calendar-input">
+                <label for="dob">Select your Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+            <button type="submit" class="submit-btn">Tell me my Sunsign</button>
+        </form>
+    </div>
+</body>
+</html>
